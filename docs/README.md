@@ -13,6 +13,10 @@ Built with the [Liferay JS Generator](https://help.liferay.com/hc/articles/36002
 
 Based upon https://github.com/carloslancha/spaceship-react/
 
+## Content
+You can import the `webcontent.lar` from this repo into a Liferay site.
+If needed you can also define the structures yourself with `Spaceship Part.json` and `Spaceship.json`
+
 ## How to Build and Deploy to Liferay
 
 ### Gradle
