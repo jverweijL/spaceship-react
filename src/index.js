@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
-import { AUTH, GRAPHQL_ENDPOINT } from './constants';
+import { AUTH, GRAPHQL_ENDPOINT, AUTHTOKEN } from './constants';
 
 const apolloClient = new ApolloClient({
 	headers: {
-		'Authorization': AUTH
+		/*'Authorization': AUTH,*/
+		'x-csrf-token': AUTHTOKEN
 	},
 	uri: GRAPHQL_ENDPOINT
 });
