@@ -7,7 +7,10 @@ You can create an interactive image with parts you can highlight
   
 ![screenhot 1](falcon.png)  
 
-Developed to run on the following versions of Liferay and/or Commerce: `Liferay DXP 7.3`
+Developed to run on the following versions of Liferay: `Liferay DXP 7.3`  
+
+**Will only work with authenticated user**
+
 
 Built with the [Liferay JS Generator](https://help.liferay.com/hc/articles/360029147391-Liferay-JS-Generator).
 
@@ -38,16 +41,17 @@ Follow the steps below to build and deploy or copy the modules from the [release
 
 [Adding Widgets to a Page.](https://learn.liferay.com/dxp/7.x/en/site-building/creating-pages/using-widget-pages/adding-widgets-to-a-page.html)
 
-*Explain what's required to set up and make use of all of the modules features.*
+1.Make sure you have imported the `webcontent.lar` or create some your own using the content the structures yourself with `Spaceship Part.json` and `Spaceship.json`
+   1.1 Make sure to define x-y positions with `%` like `77%`
+1. Drag and drop the Spaceship widget onto the page.
+1. Configure the Spaceship widget
+3.1 You need the site ID (groupID)
+3.2 You also need the article ID
 
 ### Features
 
-* Feature One
-    * ![feature one](https://placedog.net/500?id=26)
-* Feature Two
-    * ![feature two](https://placedog.net/500?id=27)
-* Feature Three
-    * ![feature three](https://placedog.net/500?id=29)
+* Define interactive points
+* Highlight specs
 
 *Wherever possible, include more images or gifs that explain the features of your project.*
 

@@ -1,4 +1,4 @@
-const AUTH = 'XXBasic YWRtaW5AbGlmZXJheS5jb206dGVzdA==';
+const AUTH = 'Basic YWRtaW5AbGlmZXJheS5jb206dGVzdA==';
 
 const DOMAIN = 'http://localhost:8080';
 
